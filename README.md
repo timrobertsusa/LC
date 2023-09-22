@@ -13,7 +13,7 @@ cd ..
 touch .env  
 
 
-add the following name/value pairs  
+add the following name/value pairs    
 OPENAI_API_BASE=  
 OPENAI_API_KEY=  
 OPENAI_API_VERSION="2023-07-01-preview"  
