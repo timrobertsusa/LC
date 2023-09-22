@@ -1,12 +1,12 @@
 # LC
-sample repo with LangChain and python
+sample repo with LangChain and python  
 
-#### need to install the following
-pip install streamlit
-pip install streamlit-chat
-pip install langchain
-pip install python-dotenv
-pip install openai
+#### need to install the following  
+pip install streamlit  
+pip install streamlit-chat  
+pip install langchain  
+pip install python-dotenv  
+pip install openai  
 
 create a .env file outside of the view of git
 cd ..
