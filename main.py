@@ -1,6 +1,7 @@
+import os
 import streamlit as st
 from streamlit_chat import message
-import os
+
 import openai
 from langchain.chat_models import AzureChatOpenAI
 
@@ -33,7 +34,7 @@ def main():
 
     #batchat = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2, max_tokens=1024)
     #deployment_name = "gpt-4"
-    deployment_name = "JustTurbo"    
+    deployment_name = "TimTurbo"    
 
     #batchat = AzureChatOpenAI(deployment_name=deployment_name, model_name="gpt-4", temperature=0)
     batchat = AzureChatOpenAI(deployment_name=deployment_name, model_name="gpt-35-turbo", temperature=0)
